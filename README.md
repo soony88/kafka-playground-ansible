@@ -20,3 +20,6 @@ The services that can be installed from this repository are:
 # Documentation
 
 You can find the documentation for running this playbook at https://docs.confluent.io/current/tutorials/cp-ansible/docs/index.html.
+
+# Useful scripts
+- service confluent-control-center status && service confluent-kafka status && service confluent-kafka-rest status && service confluent-ksql status && service confluent-schema-registry status && service confluent-zookeeper status
